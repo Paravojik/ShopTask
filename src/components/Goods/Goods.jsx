@@ -26,7 +26,7 @@ export default function Goods(props) {
       </div>
       <div className="goodsItem__bottom__amount">Amount: <h2>{props.value.amount}</h2></div>
     </div>
-       
+       <button className='goodsItem__buy'><h3>Купити</h3></button>
     </div>
   )
 }

@@ -48,7 +48,7 @@ border: 1px solid black;
 border-radius: 5px;
 margin: 5px 10px;
 }
-.goodsItem__bottom__amount{
+.goodsItem .goodsItem__bottom .goodsItem__bottom__amount{
 width: 30%;
 height: 100%;
 display: flex;
@@ -56,4 +56,12 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
+}
+.goodsItem .goodsItem__buy{
+padding: 10px;
+margin-top: 15px;
+border: none;
+background-color: rgb(168, 5, 5);
+color: white ;
+border-radius: 10px;
 }
