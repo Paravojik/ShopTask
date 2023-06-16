@@ -20,7 +20,7 @@ function Rules(){
      
 {rules.map(item=>{
     return(
-        <li>{item}</li>
+        <li key={item}>{item}</li>
     )
 })}
        </ol>

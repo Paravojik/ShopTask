@@ -21,7 +21,7 @@ width: 100%;
 padding: 0 10px;
 
 }
-.goodsItem .goodsItem__top p{
+.goodsItem .goodsItem__top div{
    display: flex;
 }
 .goodsItem .goodsItem__top h6{

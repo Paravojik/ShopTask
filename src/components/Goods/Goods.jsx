@@ -6,10 +6,10 @@ export default function Goods(props) {
       <img className='goodsItem__img' src={props.value.img}alt={props.value.title} />
       <div className="goodsItem__top"> 
       <h3>{props.value.title}</h3>
-      <p>
+      <div>
       <h4>{props.value.price} грн</h4>
       <h6>{props.value.discount!=='none'?props.value.discount+'%':null }</h6>
-      </p>
+      </div>
     </div>
     <div className="goodsItem__description">
     <h5>
@@ -20,7 +20,7 @@ export default function Goods(props) {
       <div className="goodsItem__bottom__colors">
         {props.value.color.map(item=>{
           return(
-            <div className="goodsItem__bottom__colors__color" style={{backgroundColor:item}}></div>
+            <div key={item} className="goodsItem__bottom__colors__color" style={{backgroundColor:item}}></div>
           )
         })}
       </div>

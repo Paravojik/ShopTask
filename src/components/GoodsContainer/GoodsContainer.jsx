@@ -94,8 +94,12 @@ const goods = [
   }
 ];export default function GoodsContainer() {
   return (
-     <div className="GoodsContainer">
-        {goods.map(item => <Goods value={item} key={item.title} />)}
+     <div className="Discounts">
+             <h5 className='Discounts__text'>Товари</h5>
+      <div className="Discounts__main">
+      {goods.map(item => <Goods value={item} key={item.title} />)}
+      </div>
+  
       </div>
   )
 }

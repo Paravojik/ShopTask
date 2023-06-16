@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #fff;
@@ -13,7 +14,7 @@ body{
 }
 .wrap{  
     width: 100%;
-    padding: 50px 100px;
+    padding: 0px 100px 50px;
 }
 .wrap .logo{
     font-weight: 600;
@@ -23,7 +24,9 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    /* margin-bottom: 100px; */
+    align-items: center;
 }
 header nav ul{
     display: flex;
@@ -47,6 +50,7 @@ header nav ul li{
     padding-left: 50px;
     align-items: flex-start;
     border-radius: 5px;
+    margin-top: 10vh;
 }
 .wrap .presentation h1{
     margin-bottom: 10px;
