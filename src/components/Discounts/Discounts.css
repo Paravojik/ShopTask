@@ -1,0 +1,21 @@
+.Discounts{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Discounts .Discounts__text{
+text-align: center;
+font-size: 36px;
+
+}
+.Discounts .Discounts__main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
