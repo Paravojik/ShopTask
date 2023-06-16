@@ -8,6 +8,7 @@ function App() {
       <Header/>
       <GoodsContainer/>
       <Footer/>
+      a
     </div>
   );
 }
