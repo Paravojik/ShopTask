@@ -94,13 +94,13 @@ function Discounts(){
         }
       ];
     return(
-        <div className="Discounts">
+        <section className="Discounts" id='DiscountsContainer'>
               <h5 className='Discounts__text'>Знижки</h5>
               <div className="Discounts__main">
               {goods.map(item => item.discount!=='none' ? <Goods value={item} key={'discountCard'+item.title} />: null)}
               </div>
             
-        </div>
+        </section>
     )
 }
 export default Discounts

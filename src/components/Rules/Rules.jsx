@@ -13,7 +13,7 @@ function Rules(){
         "Користувачі повинні дотримуватись усіх правил і політик, встановлених інтернет-магазином."
       ];
     return(
-        <div className="Rules">
+        <section className="Rules" id='RulesContainer'>
             <h6>Правила</h6>
             <ol>
 
@@ -24,7 +24,7 @@ function Rules(){
     )
 })}
        </ol>
-        </div>
+        </section>
     )
 }
 export default Rules

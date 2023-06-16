@@ -5,13 +5,13 @@ export default function BurgerPoup(props){
                     <nav>
        
        <ul>
-       <li>Головна</li>
-           <li>Товар</li>
-           <li>Акції</li>
-           <li>Правила</li>
-           <li>Про нас</li>
-           <li>Контакти</li>
-           <li>Кабінет</li>
+       <li ><a onClick={props.BurgerClick} href="#presentationContainer">Головна </a> </li>
+                    <li > <a onClick={props.BurgerClick} href='#GoodsContainer'>Товар</a></li>
+                    <li > <a onClick={props.BurgerClick} href='#DiscountsContainer'>Акції</a></li>
+                    <li > <a onClick={props.BurgerClick} href='#RulesContainer'>Правила</a></li>
+                    <li>Про нас</li>
+                    <li>Контакти</li>
+                    <li>Кабінет</li>
            
        </ul>
 </nav>    

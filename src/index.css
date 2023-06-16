@@ -36,6 +36,14 @@ header nav ul li{
     list-style: none;
     cursor: pointer;
 }
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+}
+nav ul li a:active{
+ 
+    color: red;
+}
 .wrap .presentation{
     background-image: url('./img/home.jpg');
     height: 500px;

@@ -60,7 +60,7 @@ useEffect(function(){
 
   return (
     <div>
-         <BurgerPoup visible={isOpen}/>
+         <BurgerPoup BurgerClick={BurgerClick} visible={isOpen}/>
     <header>
 
 
@@ -71,10 +71,10 @@ useEffect(function(){
         <nav className='naxBtns'>
        
                 <ul>
-                <li>Головна</li>
-                    <li>Товар</li>
-                    <li>Акції</li>
-                    <li>Правила</li>
+                <li ><a href="#presentationContainer">Головна </a> </li>
+                    <li > <a href='#GoodsContainer'>Товар</a></li>
+                    <li > <a href='#DiscountsContainer'>Акції</a></li>
+                    <li > <a href='#RulesContainer'>Правила</a></li>
                     <li>Про нас</li>
                     <li>Контакти</li>
                     <li>Кабінет</li>
@@ -90,7 +90,7 @@ useEffect(function(){
         
     </header>
  
-    <div className="presentation">
+    <div className="presentation" id='presentationContainer'>
         <h1>Кращі товари для дому</h1>
         <p>за низькими цінами</p>
         <button>Переглянути</button>
